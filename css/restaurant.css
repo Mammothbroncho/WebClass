@@ -1,3 +1,50 @@
-body {
-	font-style: Hot Pizza;
+div.pigglemaster {
+	font-family: 'Arima Madurai', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1{
+	border-style: solid;
+	border-width: medium;
+	width: 400px;
+	background-color: #ffc169;
+	text-align: center;
+	position: center;
+	
+}
+
+img{
+
+}
+
+p{
+	font-size: 40px;
+	margin: 50px;
+	width: 300px;
+	display: block;
+}
+
+p.one{
+float: left;
+border: double 3px;
+border-width: 10px;
+	border-top-left-radius: 80px 50px;
+	border-top-right-radius: 80px 50px;
+}
+
+p.two{
+float: left;
+border: double 3px;
+border-width: 10px;
+	border-top-left-radius: 80px 50px;
+	border-top-right-radius: 80px 50px;
+}
+
+p.three{
+border: double 3px;
+float: left;
+border-width: 10px;
+	border-top-left-radius: 80px 50px;
+	border-top-right-radius: 80px 50px;
 }
