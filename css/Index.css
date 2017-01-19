@@ -12,9 +12,10 @@ h1{
 	font-family: 'Raleway', sans-serif;
 	color: #d2ff70;
 	height: 200px;
-	width: 1440px;
+	width: 1435px;
 	max-width: 1429px;
 	min-width: 50%;
+	border-width: 5px;
 }
 
 /* Large screens */
