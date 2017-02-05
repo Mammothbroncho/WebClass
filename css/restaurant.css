@@ -188,33 +188,28 @@ a:hover {
 	text-decoration: underline;
 	}
 
-div.box{
-	position: relative;
-	width: 100px;
-	height: 130px;
-	float: left;
-	margin: 5px 30px 40px;
-	padding: 5px;
+#overall{
+	margin-left: auto;
+	margin-right: auto;
 }
 
-div.box2{
-	position: relative;
-	width: 100px;
-	height: 130px;
+.box{
+	height: 206px;
 	float: left;
-	margin: 100px 200px 100px;
-	padding: 5px;
+	margin: 30px;
+}
+
+.box2{
+	height: 206px;
+	float: left;
+	margin: 30px;
 	
 }
 
-div.box3{
-	position: relative;
-	width: 100px;
-	height: 130px;
-	margin-left: 100;
+.box3{
+	height: 206px;
 	float: left;
-	margin: 10px;
-	padding: 5px;
+	margin: 30px;
 }
 
 div.h2{
@@ -354,9 +349,8 @@ border-width: 10px;
 	border-top-left-radius: 80px 50px;
 	border-top-right-radius: 80px 50px;
 background-color: #ffc169;
-position: relative;
-top: 100px; 
-
+position: relative; 
+margin: 10px 5px 5px;
 }
 
 p.two{
@@ -367,6 +361,7 @@ border-width: 10px;
 	border-top-right-radius: 80px 50px;
 background-color: #ffc169;
 position: relative;
+margin: 10px 5px 5px;
 }
 
 p.three{
@@ -376,4 +371,5 @@ border-width: 10px;
 	border-top-left-radius: 80px 50px;
 	border-top-right-radius: 80px 50px;
 background-color: #ffc169;
+margin: 10px 5px;
 }

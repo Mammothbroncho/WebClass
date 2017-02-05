@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spoogle Progress</title>
+    <link href="bootstraptemplate/css/bootstrap.css" rel="stylesheet">
+    <link href="css/startup.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header"><a class="navbar-brand" href="#">Spoogle</a>
+<ul class=" nav navbar-nav">
+    <li class="active"><a href="startup.html">Home</a></li>
+    <li><a href="page1.html">About Us</a></li>
+      <li><a href="page2.html">Spoogle Progress</a></li>
+       <li class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+      </ul>
+  </div>
+</nav>
+<h1>PROGRESS TOWARDS SPOOG</h1>
+<br>
+<button onclick="move()">CLICK FOR SPOOG PROGRESS</button> 
+<script>
+function move() {
+    var elem = document.getElementById("myBar"); 
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+        }
+    }
+}
+</script>
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<div style="clear: both">
+<footer> Spoogle Space Ltd. </footer>
+</div>
+</body>
+</html>
